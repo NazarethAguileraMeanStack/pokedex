@@ -1,0 +1,92 @@
+body {
+    background: url('https://res.cloudinary.com/dvkntryzd/image/upload/v1540788300/pokemon_pokeball_red-wallpaper-1920x1200.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  
+  
+  
+  .box {
+    width: 100%;
+    height: auto;
+    margin: 10px auto;
+    max-width: 700px;
+    border-radius: 5px;
+    border: 1px solid black;
+    box-shadow: 4px 4px 4px black;
+    background-color: red;
+  }
+  
+  img, .info-text {
+    width: 90%;
+    height: auto;
+    margin: 15px auto;
+    padding: 20px 6% 1% 6%;
+    border: 10px outset grey;
+    background-color: white;
+    font-size: 1.1em;
+  }
+  
+  .info-text {
+    background-color: blue;
+  }
+  
+  .white-background {
+    background-color: white;
+    padding: 5%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    height: 400px
+  }
+  
+  #search {
+    width: 100%;
+  }
+  
+  #prevPokemon, #nextPokemon{
+    height: 50px;
+    margin: 0 auto;
+    background-color: black;
+    border-color: black;
+    color: grey;
+  }
+  
+  #search {
+    font-size: 30px
+  }
+  
+  .blue-background {
+    background-color: blue;
+  }
+  
+  .streaks {
+    background-color: black;
+    width: 100%;
+    height: 200px;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .box {
+      margin: 2px auto;
+    }  
+    .streaks {
+          display: none;
+      }
+      img {
+        width: 65%;
+        height: auto;
+        margin: 5px auto 0px;
+        padding: 20px 6% 1% 6%;
+        border: 10px outset grey;
+        font-size: 1.1em;
+      }
+    div.white-background {
+      height: 290px
+    }
+    div.white-background p {
+      margin-bottom: -2px;
+    }
+    
+  }
