@@ -58,7 +58,7 @@ $(document).ready(function(){
         $('#description').text(pokemonInfo);
         
         if (pokemonEvolution === null) {
-          $('#evolution').text('None. Basic Pokemon');
+          $('#evolution').text('N/A');
         } else {
           $('#evolution').text(pokemonEvolution.name);
         }
