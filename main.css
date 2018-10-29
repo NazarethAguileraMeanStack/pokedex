@@ -75,11 +75,11 @@ body {
           display: none;
       }
       img {
-        width: 50%;
+        width: 60%;
         height: auto;
         margin: 5px auto 0px;
         padding: 20px 6% 1% 6%;
-        border: 10px outset grey;
+        border: 2px outset grey;
         font-size: 1.1em;
       }
     div.white-background {
@@ -89,11 +89,11 @@ body {
       margin-bottom: -2px;
     }
     #prevPokemon, #nextPokemon{
-        height: 30px;
+        height: 20px;
       }
       
       #search {
-        font-size: 20px
+        font-size: 16px
       }
     
   }
