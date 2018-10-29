@@ -75,7 +75,7 @@ body {
           display: none;
       }
       img {
-        width: 40%;
+        width: 50%;
         height: auto;
         margin: 5px auto 0px;
         padding: 20px 6% 1% 6%;
@@ -88,5 +88,12 @@ body {
     div.white-background p {
       margin-bottom: -2px;
     }
+    #prevPokemon, #nextPokemon{
+        height: 30px;
+      }
+      
+      #search {
+        font-size: 20px
+      }
     
   }
